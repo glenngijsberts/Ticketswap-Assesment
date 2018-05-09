@@ -1,0 +1,37 @@
+// Input
+input.search-input {
+    width: 100%;
+    background-color: white;
+    border: 0px;
+    border-radius: 4px;
+    color: $black;
+    padding: 20px 25px 20px 60px;
+    
+    outline: 0;
+    font-size: 16px;
+    box-shadow: $shadow;
+
+    &::placeholder {
+        font-weight: lighter;
+        color: $lightgrey
+    }
+}
+
+form {
+    display: flex;
+
+    div.group {
+        flex:1;
+        margin-right: 15px;
+        position: relative;
+
+        img.search-icon {
+            max-width: 18px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+    }
+
+}

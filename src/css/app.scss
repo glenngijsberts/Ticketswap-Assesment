@@ -1,0 +1,16 @@
+
+// Import variables (e.g. colors)
+@import './vars';
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #FAF9F8;
+    padding-top: 100px;
+    color: $black;
+}
+
+// Import SCSS
+@import './assets';
+@import './search';
+@import './tabs';
+@import './utils';

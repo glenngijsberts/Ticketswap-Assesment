@@ -1,0 +1,131 @@
+nav.tabs-nav {
+    background-color: white;
+    border: 1px solid $border;
+    border-radius: 4px 4px 0px 0px;
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+        margin-left: -40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        li {
+
+            padding-top: 40px;
+            padding-bottom: 20px;
+            margin-left: 25px;
+
+
+            &.active {
+
+                border-bottom: 4px solid $blue;
+
+                a {
+                    color: $blue;
+                    font-weight: bold;
+                }
+            }
+
+            a {
+                font-size: 16px;
+                color: $lightgrey;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+}
+
+section.tabs {
+
+    .tab {
+        background-color: white;
+        padding: 30px;
+        border: 1px solid rgba(0, 19, 25, 0.1);
+        border-top: none;
+
+        .tab-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            div.tab-text-holder {
+                h2,h3,h4 {
+                    margin: 0px;
+                }
+
+
+                h4 {
+                    color: $lightgrey;
+                    font-weight: lighter;
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+
+                h3 {
+                    color: $blue;
+                    font-weight: lighter;
+                    font-size: 24px;
+                }
+            }
+
+            div.tab-image-holder {
+
+                .play {
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+
+                    .play-icon {
+                        width: 22px;
+                        height: 22px;
+                    }
+
+                }
+
+                img {
+                    margin-right: 25px;
+                    border-radius: 4px;
+                    max-width: 64px;
+                }
+                img.rounded {
+                    border-radius: 50%;
+                }
+                p.no-image-found {
+                    font-size: 11px;
+                    max-width: 64px;
+                    margin-right: 25px;
+                }
+            }
+
+        }
+
+    }
+
+    .showMore {
+        width: calc(100% + 60px);
+        margin-left: -30px;
+        text-align: center;
+        border-top: 1px solid $border;
+        padding-top: 30px;
+        cursor: pointer;
+
+        a {
+            text-transform: uppercase;
+            color: $lightgrey;
+        }
+
+    }
+
+}

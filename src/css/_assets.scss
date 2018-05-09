@@ -1,0 +1,42 @@
+// Container 
+.container {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+// Buttons
+.button {
+    font-size: 18px;
+    font-weight: normal;
+
+    padding: 16px 40px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    text-align: center;
+
+
+    text-decoration: none;
+    white-space: normal;
+    outline: none;
+    border: none;
+
+    transition: 300ms all;
+
+    &:hover, &:focus, &:active {
+        transition: 300ms all;
+    }
+
+}
+
+.button.button-green {
+    background-color: $green;
+    color: white;
+    
+    &:hover, &:focus, &:active {
+        background-color: darken($green, 5%);
+    }
+
+}

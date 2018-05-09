@@ -1,0 +1,25 @@
+<svg id="Elements_Icons_search" data-name="Elements / Icons / search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #07c1ff;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        fill: #07161b;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Mask" class="cls-1" d="M17.25,18a.749.749,0,0,1-.531-.22L13.538,14.6l0-.006,0-.006a8.255,8.255,0,1,1,1.057-1.057l.006,0,.006,0,3.181,3.181A.75.75,0,0,1,17.25,18Zm-9-16.5A6.75,6.75,0,1,0,15,8.25,6.758,6.758,0,0,0,8.25,1.5Z"/>
+    </clipPath>
+  </defs>
+  <path id="Mask-2" data-name="Mask" class="cls-2" d="M17.25,18a.749.749,0,0,1-.531-.22L13.538,14.6l0-.006,0-.006a8.255,8.255,0,1,1,1.057-1.057l.006,0,.006,0,3.181,3.181A.75.75,0,0,1,17.25,18Zm-9-16.5A6.75,6.75,0,1,0,15,8.25,6.758,6.758,0,0,0,8.25,1.5Z"/>
+</svg>
